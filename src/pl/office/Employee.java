@@ -2,10 +2,10 @@ package pl.office;
 
 import java.util.Scanner;
 
-public class Worker extends Boss {
+public class Employee extends Boss {
     int bonus;
 
-    public Worker(String firstName, String lastName, int salary, int bonus) {
+    public Employee(String firstName, String lastName, int salary, int bonus) {
         super(firstName, lastName, salary);
         this.bonus = bonus;
     }
